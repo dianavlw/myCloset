@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+  <h1> Closets </h1>
+  {% for closet in all_closets %}
+  <hr>
+  <div>  
+
+    <a href="{% url 'closet_detail' closet_id=closet.id %}">{{ closet.name }}</a>
+
+  </div>
+
+  {% endfor %}
+  <hr>
+  <a href="{% url 'new_closet' %}"> Created a new Closet</a>
+
+{% endblock %}  
