@@ -16,7 +16,7 @@ function ActivityPage(props) {
       <h1 className="activity">
             Breath.Chill.DrinkBoba. 
             <hr />
-          <Profile img="https://www.flaticon.com/svg/vstatic/svg/3498/3498590.svg?token=exp=1619580364~hmac=d61ce5c04e1bdb11b9812b54b21c172a" />
+          <Profile img="https://image.flaticon.com/icons/png/512/3498/3498590.png" />
           </h1>
           <p> Is it bobaTea Time?</p>
           <hr />

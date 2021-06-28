@@ -41,7 +41,7 @@ function Weather() {
     <div className="activity">&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;
       <h2>Weather</h2>
       &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;
-      <Profile img="https://www.flaticon.com/svg/vstatic/svg/826/826955.svg?token=exp=1619561318~hmac=9e50752e48aa339b617a41eb9e7e241c" />
+      <Profile img="https://image.flaticon.com/icons/png/512/861/861076.png" />
       
       <form className="form-input">
         <input

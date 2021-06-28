@@ -24,7 +24,7 @@ function TodoList(props) {
       
         <h2 className="imgicons">To-Do List</h2>
         <br></br>
-        <Profile img="https://www.flaticon.com/svg/vstatic/svg/752/752326.svg?token=exp=1619559165~hmac=1cb0da3e07a9e97a2a1b2f9b642c54a5" />
+        <Profile img="https://image.flaticon.com/icons/png/512/3566/3566336.png" />
         <br></br>
       <div className="todo">
         
