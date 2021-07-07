@@ -6,7 +6,7 @@ function Button(props) {
       <button onClick={props.onClick} Style ={{
         font: 'inherit',
         cursor: 'pointer',
-        border: '1 px',
+        border: '2 px',
         color: 'white',
         padding: '1rem 2rem'
       }}>
