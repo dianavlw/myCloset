@@ -63,7 +63,14 @@ body {
   list-style: none;
   border: 1px solid burlywood;
 }
-.flex-items{
+.flex-it {
+
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+
+}
+/* .flex-items{
   background-color: black;
   padding: 2px;
   width: 200px;
@@ -74,7 +81,7 @@ body {
   font-weight: bold;
   font-size: 4em;
   text-align: center;
-}
+} */
 .imagesize{
   display: inline-block;
   /* margin-left: auto;
@@ -100,29 +107,64 @@ col {
 } 
 
 .todo{
+  margin-top: 2.2rem;
   display: flex;
   align-content: center;
   text-align: center;
   justify-content: center;
+  
+}
+.displaytodo{
+  margin-top: 2.2rem;
+  display: flex;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  color: rgb(160, 77, 0);
+  font-weight: 600;
+  font-size: larger;
+  
 }
 
 .form-input{
-  margin: auto;
+  margin-top: 2.2rem;
+  
 }
 
+.form-button{
+  margin-top: 1rem;
+  display: flex;
+  align-content: center;
+  text-align: center;
+}
+
+.form-label {
+  margin-top: 1rem;
+  display: flex;
+  align-content: center;
+  text-align: center;
+}
 .maincard {
-  display: flex;
+  margin-top: 2.2rem;
   align-content: center;
   text-align: center;
   justify-content: center;
 }
-.activity .form-input{
+.activity .form-input .carddisplay .section2 {
   display: flex;
   align-content: center;
   text-align: center;
   justify-content: center;
+  
 }
 
+form.form-input {
+  display: flex;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  
+}
 .heading {
   display: flex;
   align-items: center;
@@ -300,12 +342,11 @@ nav .burger {
   align-content: center;
   margin: 10% auto;
   border-radius: 20px;;
-  padding: 0px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
   padding-bottom: 50px;
   text-align: center;
   border: 1px solid black;
-  width: max-content;
-  height: 50%;
+  width: max-content; 
 
 }
 
