@@ -35,6 +35,7 @@ body {
   border: 5px solid #CE9D7C;
   width: 200px;
   height: 200px;
+  margin-bottom: 2rem;
 }
 .closettitle{
   background-color: black;
@@ -107,7 +108,7 @@ col {
 } 
 
 .todo{
-  margin-top: 2.2rem;
+  /* margin-top: 1rem; */
   display: flex;
   align-content: center;
   text-align: center;
@@ -127,7 +128,7 @@ col {
 }
 
 .form-input{
-  margin-top: 2.2rem;
+  /* margin-top: 2.2rem; */
   
 }
 
@@ -150,7 +151,7 @@ col {
   text-align: center;
   justify-content: center;
 }
-.activity .form-input .carddisplay .section2 {
+.activity .form-input {
   display: flex;
   align-content: center;
   text-align: center;
@@ -158,13 +159,6 @@ col {
   
 }
 
-form.form-input {
-  display: flex;
-  align-content: center;
-  text-align: center;
-  justify-content: center;
-  
-}
 .heading {
   display: flex;
   align-items: center;
@@ -205,18 +199,21 @@ p {
 footer {
   border: 1px solid #CE9D7C;
   background-color: #E1A447;
-  position:relative;
+  position: fixed;
   margin-top: auto;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 50px;
   bottom: 0;
   width: 100%;
-  height: 10rem;
+  height: 5rem;
 }
 
 footer p {
   color: #F0F0F0;
-  padding-top: 10px;
+  margin-bottom: auto;
+  font-size: 1rem;
+  bottom: 1rem;
+  padding-bottom: 30px;  
 }
 
 input {
@@ -228,7 +225,7 @@ input {
   padding: 10px 15px;
   margin: 0 auto 10px auto;
   display: block;
-  text-align: center;
+  /* text-align: center; */
   font-size: 18px;
   color:black;
   font-weight: 300;
